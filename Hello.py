@@ -1,4 +1,4 @@
-favorite_number = 76
+favorite_number = 84
 
 print "howdy"
 print "my name is slim shady"
@@ -9,7 +9,7 @@ print "hola mi amiga"
 
 
 
-#List everything I have 106 things of
+#List everything I have my favorite number of
 print "I have {} books in my collection".format(favorite_number)
 print "I have seen {} movies".format(favorite_number)
 print "I have {} pairs of socks".format(favorite_number)
