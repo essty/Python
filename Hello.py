@@ -10,6 +10,7 @@ print "hola mi amiga"
 
 
 #List everything I have 106 things of
-print "I have 106 books in my collection"
-print "I have seen 106 movies"
-print "I have 106 pairs of socks"
+print "I have {} books in my collection".format(favorite_number)
+print "I have seen {} movies".format(favorite_number)
+print "I have {} pairs of socks".format(favorite_number)
+
