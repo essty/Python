@@ -13,6 +13,6 @@ print "hola mi amiga"
 
 #List everything I have my favorite number of
 print "{} has {} books in {} collection".format(person_name, favorite_number, gender)
-print "{} has seen {} movies".format(person_name, favorite_number)
-print "{} has {} pairs of socks".format(person_name, favorite_number)
+print "{} has seen {} of {} favorite movies".format(person_name, favorite_number, gender)
+print "{} has {} pairs of socks in {} drawer".format(person_name, favorite_number, gender)
 
