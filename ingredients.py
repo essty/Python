@@ -5,3 +5,6 @@ pancake = ['flour', 'egg', 'sugar', 'butter']
 
 for ingredients in burger:
     print ingredients
+
+for ingredients in spaghetti:
+    print ingredients
