@@ -8,3 +8,10 @@ for ingredients in burger:
 
 for ingredients in spaghetti:
     print ingredients
+
+for ingredients in pancake:
+    print ingredients
+	
+	
+#5 Burger, pasta, and pancake are represented using a list because those values don't need to be in a
+#specific place or order. they can be in a different order and still make each dish.
