@@ -2,6 +2,11 @@ recent_movies = [('Iron Man 3', 78),
                  ('The Great Gatsby', 48),
                  ('Star Trek Into Darkness', 90),
                  ('Oblivion', 56)]
+movie_stars = [('Leonardo DiCaprio', 'The Great Gatsby'),
+               ('Tom Cruise', 'Oblivion'),
+               ('Robert Downey Jr.', 'Iron Man 3'),
+               (None, 'Star Trek Into Darkness')]
+
 print "\n"
 
 for movie, rating in recent_movies:
