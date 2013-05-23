@@ -11,17 +11,14 @@ print "\n"
 
 for movie, rating in recent_movies:
     if rating > int('75'):
-        print "I watched {} the other day.".format(movie)
-        print "It was awesome!!"
+        print "I watched {} the other day.\nThis movie was awesome!!".format(movie)
         print "Rotten Tomatoes agrees: they gave {} a score of {} out of 100".format(movie, rating)
         print "\n"
     elif rating < int('50'):
-        print "I watched {} the other day.".format(movie)
-        print "This movie sucked!".format(movie)
+        print "I watched {} the other day.\nThis movie sucked!".format(movie)
         print "Rotten Tomatoes agrees: they gave {} a score of {} out of 100".format(movie, rating)
         print "\n"
     else:
-        print "I watched {} the other day.".format(movie)
-        print "It was okay."
+        print "I watched {} the other day.\nIt was okay.".format(movie)
         print "Rotten Tomatoes agrees: they gave {} a score of {} out of 100".format(movie, rating)
         print "\n"
