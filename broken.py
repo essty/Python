@@ -65,7 +65,7 @@ def main():
         else:
             print 'I hated this film'
 
-	print_movie_star_names(movies_i_like)
+    print_movie_star_names(movies_i_like)
 
 
 def print_movie_star_names(list_of_movies):
