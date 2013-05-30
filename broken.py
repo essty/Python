@@ -36,7 +36,7 @@ def has_movie_star(movie):
 
 def is_highly_rated(rating):
     """ Return True if the rating is high. """
-    threshold = 75
+    threshold = 55
     return rating >= threshold
 
 
@@ -47,25 +47,26 @@ def main():
          'rating': 58},
 
         {'name': 'Life of Pi',
-         'rating': '65'},
+         'rating': 65},
 
-        {'name': 'Christian Bale',
-         'star': 'Batman',
+        {'name': 'Batman',
+         'star': 'Christian Bale',
          'rating': 78},
 
         {'name': 'The Great Gatsby',
-         'Rating': 29,
+         'rating': 29,
          'star': 'Leonardo Di Caprio',
          'costar': 'Tobey Maguire'}
     ]
 
     for movie in movies_i_like:
-        if is_highly_rated(movie):
+        rating = movie['rating']
+        if is_highly_rated(rating):
             print 'I loved this film'
         else:
             print 'I hated this film'
 
-    print_movie_star_names(movies_i_like)
+    print print_movie_star_names(movies_i_like)
 
 
 def print_movie_star_names(list_of_movies):
@@ -76,7 +77,8 @@ def print_movie_star_names(list_of_movies):
     """
     movie_stars = []
     for movie in list_of_movies:
-        movie_stars.append(movie['star'])
+        if 'star' in movie:
+            movie_stars.append(movie['star'])
     return movie_stars
 
 main()
